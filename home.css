@@ -1,0 +1,376 @@
+
+body{
+    height:100vh;
+    width: fit-content;
+    color: white;
+    background-color: #351904;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+
+    display: flex;
+    gap: 3.5vw;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.5vw;
+    color: white;
+    text-decoration: none;
+    margin-left: 3.5vw;
+}
+.logo-container{
+    display: flex;
+    margin-left: 20vw;
+    margin-right: 2.0vw;
+    color: white;
+    font-weight: bolder;
+    width: fit-content;
+    height: fit-content;
+    font-size: 2.5vw;
+    position:relative;
+    left: 14vw;
+}
+.shop-cart,.logo{
+    width: 4vw;
+    height: 4vw;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.section1{
+    display: flex;
+    gap: 10vw;
+    margin-left: 10vw;
+    width: fit-content;
+    height: fit-content;
+}
+.text{
+    display: block;
+    text-align: start;
+    justify-content: start;
+}
+.text1{
+    font-size: 2.0vw;
+}
+.text-hr{
+    width: 20vw;
+    height: 1.5vw;
+    background-color: #e08e00;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+    margin-right: 15vw;
+}
+.img1,.img2,.img3,.img4{
+    width: 7.5vw;
+    height: 14.5vh;
+}
+.img-container{
+    margin-left: 5vw;
+}
+.img1{
+    border-top-left-radius: 30vw;
+}
+.img2{
+    border-top-right-radius: 30vw;
+}
+.img3{
+    border-bottom-left-radius: 30vw;
+}
+.img4{
+
+    border-bottom-right-radius: 30vw;
+}
+.imgContainer-hr{
+    margin-left: 10vw;
+    margin-right: 25vw;
+}
+
+nav{
+    display: block;
+    justify-items: start;
+    background-color: #d7ccc8;
+    border-radius: 2.5vw;
+    width: fit-content;
+    padding: 1.5vw;
+    min-height: fit-content;
+    height: fit-content;
+    margin-left: 1.5vw;
+    position: relative;
+    bottom: 5vw;
+}
+.nav1,.nav2,.nav3,.nav4,.nav5{
+    width: 3vw;
+    height: 4vw;
+    margin-top: 2vw;
+}
+
+.main{
+    display: block;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+    top: -35vw;
+    width: fit-content;
+    font-weight: lighter;
+    color: black;
+}
+h1{
+    text-align: start;
+    font-weight: lighter; 
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.main-header{
+    color: white;
+    position: relative;
+    top: 2.5vh;
+    left: 25vw;
+    width: fit-content;
+}
+.main-section1{
+    align-items: start;
+    display: flex;
+    gap:10vw;
+    border-radius: 2vw;
+    position: relative;
+    width: 50vw;
+    right: 27.5vw;
+    margin-left: 40vw;
+    background-color: #d7ccc8;
+    padding-right: 5vw;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+.submain-section1{
+    display: block;
+    margin-left: 1.5vw;
+}
+.mainImg3p{
+    color: white;
+    display: flex;
+    width: fit-content;
+    min-height: fit-content;
+    padding-left: 1vw;
+    padding-right: 0.5vw;
+    padding-top: 2.0vh;
+    border-radius: 1.5vh;
+    height: fit-content;
+    background-color: rgb(73, 72, 72);
+    align-items: center;
+}
+.mainImg3{
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: white;
+    border-radius: 0.5vw;
+    margin-left: 4vw;
+    margin-bottom: 2vh;
+}
+img{
+    width: 5vw;
+    height: 5vw;
+}
+.main-section1-hr1,.main-section1-hr2{
+    height: 0.5vh;
+    margin-top: 2.0vw;
+    background-color: #351904;
+    border-radius: 1vw;
+}
+.mainImg1{
+    width: 7.25vw;
+    height: 15vh;
+    border-radius: 100%;
+}
+
+
+.main-section2-hr1,.form-hr{
+    height: 1vh;
+    background-color: #351904;
+    border-radius: 2vw;
+}
+.mainSection2p{
+    font-weight: bolder;
+    margin-left: 5vw;
+}
+form{
+    width: fit-content;
+    height: fit-content;
+}
+.paymentbtns{
+    display: flex;
+    gap: 3.5vw;
+}
+button{
+    width: 5vw;
+    border-radius: 1.5vw;
+    background-color: transparent;
+    border: none;
+}
+.form-h1{
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 7vh;
+}
+input{
+    height: 4.5vh;
+    width: 20vw;
+    min-width: 200px;
+}
+#payNow{
+    background-color: #e08e00;
+    width: 17vw;
+    height: 5vh;
+    border: none;
+    color: #d7ccc8;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    margin-top:1vh;
+}
+
+
+.main-section3{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    min-height: fit-content;
+    min-width: fit-content;
+    position: relative;
+    left: 77.25vw;
+    top: -80vw;
+
+}
+.section3-img{
+    width:15vw;
+    height: 60vh;
+    border-radius: 4vw;
+    margin: 1vw;
+}
+.section3-hr,.section3-hr1,.section3-hr2,.section3-hr3{
+    width: 10vw;
+    height: 3vh;
+    background-color: #e08e00;
+    border-radius: 2vw;
+}
+.section3-hr1{
+    transform: rotate(90deg);
+    position: relative;
+    top: -40vh;
+    right: 10vw;
+}
+.section3-hr3{
+    transform: rotate(90deg);
+    position: relative;
+    top: -49vh;
+    left: 10vw;
+}
+.section3-hr2{
+    position: relative;
+    top: -5vh;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: start;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 1.0vw;
+    font-size: 1.0vw;
+    margin-top: 2.5vh;
+}
+.viberEmail,.webHome{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+
+}
+.viber, .email, .web, .home{
+    width: 3.5vw;
+    height: 7.5vh;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 2.5vw;
+}
+.p{
+    position: relative;
+    bottom:0.5vw;
+    left: 1.5vw;
+    color: white;
+}
+
+
+
+@media(max-width:768px){
+    .header{
+        margin-right: 2.5vw;
+    }
+    .logo-container{
+        margin-right: 5vw;
+    }
+    .main-section3{
+        display: none;
+    }
+    .main-section1{
+        display: flex;
+        gap: 20vw;
+        position: relative;
+        top: -10vh;
+        padding-right: 5.0vw;
+        margin-top: 10vh;
+        margin-bottom: 0px;
+        margin-left: 27vw;
+    }
+    nav{
+        display: none;
+    }
+    .main-header{
+        position: relative;
+        top: -5vh;
+        left: 25vw;
+        font-size: medium;
+        width: fit-content;
+
+    }
+    .main{
+        display: block;
+        gap: 0px;
+        position: relative;
+        top: 10vh;
+        max-width:90vw;
+        min-height: 80vh;
+        margin-right: 0px;
+    }
+    .footer{
+        width: fit-content;
+        height: fit-content;
+    }
+    .img1,.img2,.img3,.img4{
+        width: 7.5vw;
+        height: 7.5vh;
+    }
+    button{
+        margin-left: 5vw;
+        border-radius: 1.5vw;
+    }
+    #payNow{
+        background-color: #e08e00;
+        width: 30vw;
+        margin-left: 7.2vw;
+    }
+    .viber, .email, .web, .home{
+        width: 3.5vw;
+        height: 4.5vh;
+        background-color: white;
+        border-radius: 100%;
+        margin-left: 2.5vw;
+    }
+    .section3-img{
+        display: none;
+    }
+    
+}
