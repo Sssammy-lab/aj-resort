@@ -9,7 +9,7 @@ body{
     display: flex;
     gap: 3vw;
     color: white;
-    font-size: 2vw;
+    font-size: clamp(2rem, 0.571rem + 3.81vw, 4rem);
     margin-left: 2.5vw;
 }
 .header img{
