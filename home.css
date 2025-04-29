@@ -85,6 +85,7 @@ main{
     display: flex;
     margin-left: 1vw;
     position: relative;
+    margin-top: 5vw;
 }
 main img{
     width: 5vw;
