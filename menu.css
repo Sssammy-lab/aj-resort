@@ -92,6 +92,7 @@
     height: fit-content;
     padding-left: 1vw;
     padding-right: 1vw;
+    border-radius:1vw;
 }
 :hover.menuItemBtn1{
     background-color: #e08e00;
