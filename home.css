@@ -297,5 +297,8 @@ footer p{
         top: -22vw;
         margin-left:12vw;
     }
+    .section1{
+        height: 25vh;
+    }
 
 }
